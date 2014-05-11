@@ -1,0 +1,111 @@
+1. INTRODUÇÃO
+<Descreva os objetivos do documento, forneça definições de termos necessários para o entendimento do mesmo e liste algumas referências interessantes.>
+
+2. GERENCIAMENTO DA GERÊNCIA DE CONFIGURAÇÃO DE SOFTWARE
+2.1. ORGANIZAÇÃO
+<Deve ser descrita nesta seção a estrutura da equipe de GCS e como ela se encaixa na estrutura da organização com relação a outras equipes>
+
+O gerente segue um procedimento de itens de configuração e ambiente.
+
+2.2. RESPONSABILIDADES
+<Definam nesta seção os deveres e responsabilidades daqueles que estiverem envolvidos com as atividades de GCS.>
+
+Gerente de projeto com o papel de gerente de configuração;
+Desenvolvedor com papel de auditor e vice-versa;
+Analista de teste é responsável pela homologação do que é produzido.
+
+2.3. RELAÇÃO COM AS FASES DO DESENVOLVIMENTO E OUTROS FLUXOS 
+DE ATIVIDADES
+<Nesta seção são relacionadas as atividades de GCS com as diferentes etapas do ciclo de vida do desenvolvimento de software.>
+
+Ao desenvolvimento de um artefato o responsável deve executar um peer-review e submeter ao repositório git.
+
+
+
+
+3.1. IDENTIFICAÇÃO DA CONFIGURAÇÃO
+<Esta seção descreve como identificar, nomear e adquirir os itens de configuração do sistema.>
+3.1.1. Identificação de itens de configuração
+
+A001-des01-seguros-01-XX-requisito de relatório de vendas.docx
+
+3.1.2. Nomeação dos itens de configuração
+
+A001 = Identificador do artefato.
+Des01 = Ambiente de desenvolvimento.
+Seguros = Projeto em desenvolvimento.
+01 = Nome da demanda.
+XX = Módulo da demanda
+Requisito de relatório de vendas.docx = Descrição do artefato.
+
+3.1.3. Aquisição e armazenamento de itens de configuração
+
+Aquisição e armazenamento através da ferramenta git.
+
+3.1.4. Gerenciamento de baselines
+
+A cada três meses deve ser feito um build com apoio do git.
+
+3.2. CONTROLE DA CONFIGURAÇÃO
+<Nesta seção deve ser descrito o processo de gerência de mudanças. Normalmente, essa informação é colocada em um documento a parte chamado Documento de 
+Políticas de Mudanças. Aqui deve apenas ser incluído um apontador para esse documento.>
+
+ N/A
+
+3.3. REGISTRO DO STATUS DA CONFIGURAÇÃO
+<Esta seção lida com os detalhes de registrar o status de cada item de configuração e apresentar essa informação aos indivíduos que precisam saber sobre ela.>
+3.1.1. Identificação das necessidades de informação
+
+N/A
+	
+3.1.2. Mecanismos de coleta de informações
+
+Através da ferramenta git ou solicitação do stakeholder por e-mail.
+
+3.1.3. Relatórios, seus conteúdos e frequências.
+
+Relatório e conteúdo através da ferramenta git.
+
+3.1.4. Acesso a dados de registro de status
+
+A pessoa quem foi atribuída o registro no git ou gerente de projeto no caso de uma solicitação do stakeholder.
+
+3.4. AUDITORIA DA CONFIGURAÇÃO
+<Esta seção descreve os tipos de auditoria que serão realizados, o procedimento de auditoria, a frequência e qualquer outra informação relevante.>
+
+3.1.1. Auditorias que devem ser realizadas
+
+Auditoria de artefatos no caso desta instituição será realizada por amostragem por demandas ou projetos no ciclo de 03 meses conforme entrega estabelecido pelo líder de equipe. 
+
+
+3.1.2. Procedimentos de auditoria
+
+A politica da auditoria é quem produz o artefato não pode auditar, antes de desenvolver algum artefato é definido quem será auditor responsável pelo mesmo.
+
+
+
+
+
+
+
+
+
+
+
+
+4. AGENDA DA GERÊNCIA DE CONFIGURAÇÃO
+<Esta seção descreve a sequência de atividades de GCS, suas interdependências e a relação com o ciclo de vida do projeto.>
+Revisão de artefatos no repositório git, apontar melhorias, determinar cronograma de entrega.
+5. RECURSOS DE GERÊNCIA DE CONFIGURAÇÃO
+<Indique nesta seção as ferramentas de software, técnicas, equipamentos, pessoas e treinamentos necessários para a implementação das atividades de gerência de configuração especificadas.>
+
+Ferramenta git, sala de reunião, notebook e auditoria.
+
+
+
+6. MANUTENÇÃO DO PLANO DE GERÊNCIA DE CONFIGURAÇÃO DE SOFTWARE
+<Esta seção descreve as atividades que são necessárias para manter o plano atualizado durante o ciclo de vida do projeto.>
+•	Garantir que desenvolvedores mantenham os artefatos no git.
+•	Garantir que os desenvolvedores troquem de papel com auditores e vice-versa.
+•	Garantir que os testes sejam criados e realizados.
+•	Garantir que a baseline seja entregue a cada três meses.
