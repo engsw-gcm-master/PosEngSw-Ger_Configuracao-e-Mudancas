@@ -1,0 +1,96 @@
+
+1. INTRODUÇÃO
+Documento configuração Definição de Ambiente descreve 
+2. INFRA-ESTRUTURA
+2.1. FERRAMENTAS
+Desenvolvimento:
+Desenvolvimento
+Nome Ferramenta	Descrição	licença 
+Windows 	 Plataforma utilizada para desenvolvimento	 1 licença para 7 usuários 
+JDK 7	kit de ferramentas para desenvolvimento java	Gratuita 
+Eclipse	ferramenta de codificação;	Gratuita
+EGit	plug-in de integração do eclipse com o Git	Gratuita
+Sql developer	cliente de acesso de gerenciamento  do banco Oracle	Gratuita
+Banco de dados Oracle	sistema de gerenciamento de banco de dados	1 licença 
+IReport	Criação e geração de relatórios	Gratuita
+Spring Security 	Framework de segurança 	Gratuita
+Jasper  Report 	API de Relatório 	Gratuita
+Prime faces 	Framework JSF	Gratuita
+Hibernate	Framework ORM	Gratuita
+		
+Gerenciamento
+Git	Ferramenta de controle de versão
+	Gratuita
+GitHub  	Ferramenta web de gerenciamento de configuração e mudança
+	1 licença
+OpenProj  	Ferramenta de gerenciamento de projeto
+	Gratuita
+Astah Community	Ferramenta de criação de diagramas UML do projeto	Gratuita
+Axure	– Ferramenta de prototipagem 	1 licença
+		
+
+
+2.2. EQUIPAMENTOS
+7 Notebooks  com processadores i7, memoria ram 8GB, disco rígido 500GB;
+1 servidor  - Processador Intel Xeon  G2120 3.10 GHz, memoria ram 8GB, disco rígido 1TB. 
+
+3. ORGANIZAÇÃO FÍSICA
+Sala com dois ambientes uma para reuniões e a outra para desenvolvimento, ar-condicionado, 7 baias , 1 mesa, 13 cadeiras. 
+
+<Forneça uma breve descrição da estrutura física do local
+onde o sistema será desenvolvido>
+4. PADRÃO DE NOMENCLATURA DE ARTEFATOS
+Português
+
+Especificação funcional – EF
+Análise de escopo
+
+5. AMBIENTE LOCAL
+5.1. ESTRUTURA DE DIRETÓRIOS
+•	Projeto	
+o	Documentação 
+o	Codigo
+	Trunk
+	Tags
+	Branchs
+ 
+5.2. INFORMAÇÕES ADICIONAIS
+Qual quer desenvolvedor pode alterar.
+6. AMBIENTE DE HOMOLOGAÇÃO E TESTES
+6.1. ESTRUTURA DE DIRETÓRIOS
+•	Projeto	
+o	Documentação 
+o	Codigo
+	Trunk
+	Tags
+	Branchs
+
+6.2. INFORMAÇÕES ADICIONAIS
+No momento que o desenvolvedor finalizar uma demanda, o mesmo deverá enviar para o artefato produzido para o ambiente de homologação, e deverá informar a equipe de testes.
+7. AMBIENTE DE PRODUÇÃO
+7.1. ESTRUTURA DE DIRETÓRIOS
+•	Projeto	
+o	Documentação 
+o	Codigo
+	Trunk
+	Tags
+	Branchs
+
+7.2. INFORMAÇÕES ADICIONAIS
+Após realização dos testes com sucesso da equipe de teste, a mesma deverá informar ao analista. Com o artefato em mãos, o analista irá validar com o cliente em uma reunião, caso seja uma alteração de maior porte, ou por e-mail. Após aprovação por parte do cliente, o artefato deverá ser disponibilizado ao ambiente em produção.
+8. ARQUIVOS DE CONFIGURAÇÂO
+hibernate.properties
+email.properties
+language.properties
+
+9. PROMOÇÂO ENTRE AMBIENTES E BACKUPS
+9.1. AMBIENTE LOCAL -AMBIENTE DE HOMOLOGAÇÃO E TESTES 
+Após a implementação, o desenvolvedor deverá enviar o artefato ao GitHub, subir a aplicação ao ambiente de homologação e informar à equipe de teste. 
+9.2. AMBIENTE LOCAL -AMBIENTE DE PRODUÇÃO
+O analista de teste deverá criar uma bateria de testes e irá submeter a aplicação à mesma. Após o sucesso dos testes, deverá ser solicitada a aprovação do cliente, e após confirmada será enviada para o ambiente de produção.
+10. POLÍTICA DE BACKUP
+Semanalmente deverá ser realizado o backup geral dos artefatos.
+11. AVALIAÇÃO E REVISÃO DO AMBIENTE
+N/A
+12. REFERÊNCIAS
+N/A
